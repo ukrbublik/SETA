@@ -1,0 +1,25 @@
+<html>
+   <head>
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="/seta.js"></script>
+      <script src="/test.js"></script>
+      <script src="/lib/jquery-1.11.3.js"></script>
+      <script src="/lib/diff_match_patch/diff_match_patch_uncompressed.js"></script>
+   </head>
+   <body>
+      <textarea id='ta1' style='width:500px; height:300px'></textarea>
+      <textarea id='ta2' style='width:500px; height:300px'></textarea>
+	  <br><br>
+	  Conflicts tests:<br>
+	  <input type='button' onclick='testTimeConflict()' value='testTimeConflict' /><br>
+	  (simulates situation, when initial text = "--initial string--", left user writes "[added first]" to start and right user writes "[added second]" to end at the same time)
+	  <br><br>
+	  Simulate offline state:<br>
+	  <input type='button' onclick='toggleOffline1()' value='toggleOffline1' />
+	  <input type='button' onclick='toggleOffline2()' value='toggleOffline2' />
+	  <br>
+	  Status 1: <span id='stat1'></span>
+	  <br>
+	  Status 2: <span id='stat2'></span>
+   </body>
+</html>
