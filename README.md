@@ -2,7 +2,7 @@
 ### Info
 Simulteneous Editable TextArea on NodeJS
 
-Allows to edit text files by many clients at time.
+Allows to edit text files by many clients at same time.
 
 Prototype of cloud IDE like: 
 hyperdev.com 
@@ -10,7 +10,7 @@ coderpad.io
 nitrous.io
 or Google Docs...
 
-Made with socket.io, uses diff3 algo.
+Made with socket.io, uses diff3 algo to solve conflicts.
 
 ### Usage
 ```bash
