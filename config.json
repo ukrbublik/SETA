@@ -1,6 +1,0 @@
-{
-	"serverPort" : 1337,
-	"file": "data/text.txt",
-	"metafile": "data/meta.json",
-	"threeWayMergeConflictResolveStrategy": "b"
-}
