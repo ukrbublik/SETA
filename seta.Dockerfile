@@ -1,6 +1,6 @@
 FROM node:8.4.0
 
-COPY ./seta /var/www/seta
+COPY . /var/www/seta
 
 WORKDIR /var/www/seta
 
